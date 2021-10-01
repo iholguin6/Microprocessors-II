@@ -1,4 +1,9 @@
-
+/*
+    Author:     Ismael Holguin 
+    Course:     EE4178 Micprocessors II
+    Semester:   Fall 2021 Bachelors of Science
+    Date:       09/30/2021
+*/
 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
@@ -45,3 +50,4 @@ void app_main()
  xTaskCreate(&blinky, "blinky", 512,NULL,5,NULL );
  /* Should not reach here! */
 }
+
