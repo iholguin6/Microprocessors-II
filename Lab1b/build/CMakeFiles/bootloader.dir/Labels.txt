@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/CMakeFiles/bootloader
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/CMakeFiles/bootloader.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/CMakeFiles/bootloader-complete.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/isma505/esp/esp-idf/examples/Micro_2/Lab1b/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
