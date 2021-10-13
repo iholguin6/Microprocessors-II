@@ -1,4 +1,4 @@
-/*
+/*  LAB_1b
     Author:     Ismael Holguin 
     Course:     EE4178 Micprocessors II
     Semester:   Fall 2021 Bachelors of Science

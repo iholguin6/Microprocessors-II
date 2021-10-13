@@ -22,6 +22,7 @@ static void vSenderTask(void * pvParameters){
     char* IValueToSend = (char*) pvParameters;
     BaseType_t xStatus;
     for(;;){
+        //xQueueSendToBack sends the strings 
         xStatus = xQueueSendToBack(xQueue,&IValueToSend,0);
         if(xStatus!=pdPASS){
             printf("Could not send to the queue\r\n");
@@ -50,6 +51,7 @@ void app_main(void){
     static const char* data2 = "Fall2021";
 
     xQueue = xQueueCreate(5,sizeof(char*));
+    //checks if the queue was made corectly
     if(xQueue != NULL){
         xTaskCreate(&vSenderTask,"Sender1",2048,(void*)data1,1,NULL);
         xTaskCreate(&vSenderTask,"Sender2",2048,(void*)data2,1,NULL);
