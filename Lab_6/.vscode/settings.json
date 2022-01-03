@@ -1,0 +1,9 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "mcpwm.h": "c",
+    "esp_intr_alloc.h": "c"
+  },
+  "cmake.configureOnOpen": true,
+  "idf.adapterTargetName": "esp32"
+}
