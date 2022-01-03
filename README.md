@@ -5,3 +5,5 @@
 * Semaphores
 ## Lab_1b
 * Queues
+## Lab_2
+* GPIO, Interrupts, and Queues
